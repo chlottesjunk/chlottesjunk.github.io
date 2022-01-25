@@ -11,6 +11,7 @@ h3 {
 }
 p {
     color: palevioletred;
-    border: 21px solid powderblue;
+    border: 21px solid red;
     padding: 30px;
+    margin: 50px;
 }
