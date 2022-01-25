@@ -1,9 +1,13 @@
 body {
     background-color: snow;
 }
-h1 {
+h2 {
     color: hotpink;
 }
+
+h3 {
+    color: lightpink;
+}
 p {
-  color: lightpink;
+    color: palevioletred;
 }
