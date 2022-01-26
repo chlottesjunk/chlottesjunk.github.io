@@ -17,11 +17,9 @@ h2 {
 h3 {
     background-color: rgba(219, 112, 147, 0.75);
     color: lavenderblush;
-    width: 700px;
-    height: 500px;
-    border: 21px solid palevioletred;
-    margin: 0px;
-    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid palevioletred;
+    padding: 5px;
 }
 
 p {
