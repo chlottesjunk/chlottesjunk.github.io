@@ -1,22 +1,4 @@
 body {
-    background-color: snow;
-    font-family: avantgarde;
-}
-h2 {
-    color: hotpink;
-}
-
-h3 {
-    color: lightpink;
-}
-p {
-    color: palevioletred;
-    border: 2100px solid red;
-    padding: 3000px;
-    margin: 5000px;
-}
-
-body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
 }
@@ -32,11 +14,18 @@ h2 {
     font-size: 150%;
     margin: 0px;
 }
-p {
+h3 {
     background-color: rgba(219, 112, 147, 0.75);
     color: lavenderblush;
-    width: 285px;
+    width: 700px;
+    height: 500px;
     border: 21px solid palevioletred;
     margin: 0px;
     padding: 30px;
+}
+
+p {
+    color: palevioletred;
+    width: 700px;
+    height: 500px;
 }
