@@ -3,6 +3,19 @@ body {
     background-color: snow;
 }
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
 h1 {
     color: hotpink;
     font-size: 300%;
