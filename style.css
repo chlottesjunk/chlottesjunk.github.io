@@ -4,12 +4,12 @@ body {
 }
 
 #lol img {
-  width: 100px;
-  
+    width: 100px;
+    float: right;
 }
 
 .header h1 {
-  position: relative;
+    position: relative;
 }
 
 
