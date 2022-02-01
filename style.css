@@ -15,6 +15,10 @@ header {
     float: left;
 }
 
+@import url(//db.onlinewebfonts.com/c/977cc9cf0ba0284f0d8bff7e929f4c1c?family=Heavy+Heap);
+
+@font-face {font-family: "Heavy Heap"; src: url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.eot"); src: url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.woff") format("woff"), url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/977cc9cf0ba0284f0d8bff7e929f4c1c.svg#Heavy Heap") format("svg"); } 
+
 h1 {
     
     background-color: rgba(219, 112, 147, 0.75);
