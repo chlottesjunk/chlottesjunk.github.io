@@ -3,20 +3,28 @@ body {
     background-color: snow;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 5px 20px;
+}
+
 .header img {
     width: 100px;
     float: left;
 }
 
-.header h1 {
-    position: relative;
-}
-
-
 h1 {
-    color: hotpink;
-    font-size: 300%;
-    margin: 0px;
+    
+    background-color: rgba(219, 112, 147, 0.75);
+    font-family: heavy-heap;
+    color: lavenderblush;
+    box-sizing: border-box;
+    border: 10px solid palevioletred;
+    border-radius: 12px;
+    padding: 10px;
+    width: fit-content;
 }
 
 h2 {
@@ -24,14 +32,11 @@ h2 {
     font-size: 150%;
     margin: 0px;
 }
+
 h3 {
-    background-color: rgba(219, 112, 147, 0.75);
-    color: lavenderblush;
-    box-sizing: border-box;
-    border: 10px solid palevioletred;
-    border-radius: 12px;
-    padding: 10px;
-    width: fit-content;
+    color: hotpink;
+    font-size: 300%;
+    margin: 0px;
 }
 
 p {
