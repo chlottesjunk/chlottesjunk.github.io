@@ -3,7 +3,7 @@ body {
     background-color: snow;
 }
 
-#lol img {
+.header img {
     width: 100px;
     float: left;
 }
@@ -29,6 +29,7 @@ h3 {
     color: lavenderblush;
     box-sizing: border-box;
     border: 10px solid palevioletred;
+    border-radius: 12px;
     padding: 5px;
     width: fit-content;
 }
