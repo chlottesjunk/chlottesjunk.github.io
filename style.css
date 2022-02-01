@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'heavy_heapregular';
+    src: url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff2') format('woff2'),
+         url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
