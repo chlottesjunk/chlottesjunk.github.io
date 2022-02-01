@@ -31,7 +31,7 @@ header {
 
 h1 {
     color: deeppink;
-    font-family: heavy_heapreagular;
+    font-family: heavy_heapreagular, sans-serif;
     font-size: 200%;
 }
 
