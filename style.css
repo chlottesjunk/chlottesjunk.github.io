@@ -17,8 +17,8 @@ header {
 
 h1 {
     
-    background-color: rgba(219, 112, 147, 0.75);
     color: lavenderblush;
+    background-color: rgba(219, 112, 147, 0.75);
     border: 10px solid palevioletred;
     border-radius: 12px;
     padding: 10px;
@@ -26,9 +26,12 @@ h1 {
 }
 
 h2 {
-    color: lightpink;
+    color: palevioletred;
+    background-color: lightpink;
     font-size: 150%;
-    margin: 0px;
+    margin: 5px;
+    border-left: 5px solid hotpink;
+    border-radius: 5px;
 }
 
 h3 {
