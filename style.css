@@ -12,25 +12,11 @@ body {
     background-color: snow;
 }
 
-header {
-    display: inline-block;
-    margin: 15px 5px 20px;
-}
-
-.header img {
-    width: 70px;
-    float: left;
-}
-
-.header h1 {
-    width: 500px;
-    padding-left: 100px;
-}
-
 h1 {
     color: deeppink;
     font-family: heavy_heapregular, sans-serif;
-    font-size: 200%;
+    font-size: 250%;
+    margin: auto;
 }
 
 h2 {
