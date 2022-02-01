@@ -16,7 +16,7 @@ h1 {
     color: deeppink;
     font-family: heavy_heapregular, sans-serif;
     font-size: 250%;
-    margin: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -38,5 +38,6 @@ h3 {
 
 p {
     color: palevioletred;
-    margin: 20px;
+    margin: 200px;
+    text-align: justified;
 }
