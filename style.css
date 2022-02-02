@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'heavy_heapregular';
-    src: url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff2') format('woff2'),
-         url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
@@ -19,7 +10,7 @@ body {
 
 h1 {
     color: deeppink;
-    font-family: heavy_heapregular, sans-serif;
+    font-family: heavy-heap, sans-serif;
     font-size: 400%;
     letter-spacing: 6px;
     text-align: center;
@@ -68,4 +59,12 @@ p {
     margin: 50px 200px;
     text-align: justified;
     text-indent: 50px;
+}
+
+@font-face {
+    font-family: 'heavy-heap';
+    src: url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff2') format('woff2'),
+         url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
