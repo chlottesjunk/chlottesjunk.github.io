@@ -42,6 +42,10 @@ h3 {
     margin: 0px;
 }
 
+.blob {
+    align: center;
+}
+
 .blob a:link, a:visited {
     color: deeppink;
     background-color: mistyrose;
