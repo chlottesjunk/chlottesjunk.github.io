@@ -1,8 +1,8 @@
-*, *:before, *:after: {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+/* *, *:before, *:after: { */
+/*     margin: 0px; */
+/*     padding: 0px; */
+/*     box-sizing: border-box; */
+/* } */
 
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
@@ -10,10 +10,10 @@ body {
 }
 
 .blob {
-    position: absolute;
-    top: 50%;
+    position: sticky;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, 50%);
+/*     transform: translate(-50%, 50%); */
     padding: 20px, 46px;
     margin-bottom: 30px;
     text-align: center;
