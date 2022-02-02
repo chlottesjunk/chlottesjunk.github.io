@@ -33,23 +33,24 @@ h3 {
     margin: 0px;
 }
 
-.blob a:link, a:visited {
-    color: deeppink;
-    background-color: mistyrose;
-    border: 2px solid deeppink;
-    border-radius: 7px;
-    padding: 10px;
-    width: fit-content;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-}
+/* .blob a:link, a:visited { */
+/*     color: deeppink; */
+/*     background-color: mistyrose; */
+/*     border: 2px solid deeppink; */
+/*     border-radius: 7px; */
+/*     padding: 10px; */
+/*     width: fit-content; */
+/*     text-align: center; */
+/*     text-decoration: none; */
+/*     display: inline-block; */
+    
+/*     cursor: pointer; */
+/* } */
 
-.blob a:hover {
-    color: mistyrose;
-    background-color: deeppink;
-}
+/* .blob a:hover { */
+/*     color: mistyrose; */
+/*     background-color: deeppink; */
+/* } */
 
 p {
     color: palevioletred;
