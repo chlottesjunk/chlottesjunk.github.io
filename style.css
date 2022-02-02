@@ -12,6 +12,12 @@ body {
     background-color: snow;
 }
 
+#text-content {
+    column-count: 3;
+    column-gap: 50px;
+    column-width: 250px;
+}
+
 h1 {
     color: deeppink;
     font-family: heavy_heapregular, sans-serif;
