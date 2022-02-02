@@ -13,9 +13,8 @@ body {
 }
 
 .text-content p {
-    column-count: 3;
-    column-gap: 50px;
-    column-width: 250px;
+    columns: 150px 3;
+    column-gap: 15px;
 }
 
 h1 {
