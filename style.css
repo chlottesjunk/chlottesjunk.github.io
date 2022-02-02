@@ -41,6 +41,7 @@ h3 {
     color: deeppink;
     background-color: mistyrose;
     border: 2px solid deeppink;
+    border-radius: 7px;
     padding: 10px;
     width: fit-content;
     text-align: center;
