@@ -43,9 +43,11 @@ h3 {
 }
 
 .blob a:link, a:visited {
-    color: mistyrose;
-    background-color: rgb(255,20,147, 0.75);
-    border: deeppink;
+    color: deeppink;
+    background-color: mistyrose;
+    border: 2px solid deeppink;
+    padding: 10px;
+    width: fit-content;
     text-align: center;
     text-decoration: none;
     display: block;
