@@ -21,6 +21,7 @@ h1 {
     color: deeppink;
     font-family: heavy_heapregular, sans-serif;
     font-size: 400%;
+    letter-spacing: 6px;
     text-align: center;
 }
 
@@ -39,6 +40,24 @@ h3 {
     color: hotpink;
     font-size: 100%;
     margin: 0px;
+}
+
+a:link, a:visited {
+    color: mistyrose;
+    background-color: rgb(255,20,147, 0.75);
+    border: deeppink;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a:hover {
+    color: mistyrose;
+    background-color: deeppink;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 p {
