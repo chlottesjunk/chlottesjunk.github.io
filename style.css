@@ -12,7 +12,7 @@ body {
     background-color: snow;
 }
 
-#text-content {
+.text-content p {
     column-count: 3;
     column-gap: 50px;
     column-width: 250px;
@@ -44,7 +44,7 @@ h3 {
 
 p {
     color: palevioletred;
-    margin: 200px;
+    margin: 50px 200px;
     text-align: justified;
     text-indent: 50px;
 }
