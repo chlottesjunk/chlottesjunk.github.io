@@ -42,21 +42,19 @@ h3 {
     margin: 0px;
 }
 
-a:link, a:visited {
+.blob a:link, a:visited {
     color: mistyrose;
     background-color: rgb(255,20,147, 0.75);
     border: deeppink;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     cursor: pointer;
 }
 
-a:hover {
+.blob a:hover {
     color: mistyrose;
     background-color: deeppink;
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 p {
