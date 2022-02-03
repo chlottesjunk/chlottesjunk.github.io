@@ -26,14 +26,27 @@ body {
 /*     color: deeppink; */
 /* } */
 
-div.button.blob {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px dashed rgba(114,186,94,0.35);
+    height: 400px;
+    background: rgba(114, 186, 94, 0.05);
 }
+
+.blob {
+    poistion:sticky;
+}
+
+/* { */
+/* position: -webkit-sticky; */
+/*   position: sticky; */
+/*   top: 0; */
+/*   padding: 5px; */
+/*   background-color: #cae8ca; */
+/*   border: 2px solid #4CAF50; */
+/* } */
 
 /* .blob { */
 /*     position: sticky; */
