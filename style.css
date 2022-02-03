@@ -5,10 +5,20 @@ body {
 }
 
 .blob {
+}
+
+.blob:hover {
+    color: mistyrose;
+    background-color: deeppink;
+}
+
+.button {
+    position: sticky;
+    top: 0px;
     color: deeppink;
     background-color: mistyrose;
     border: 2px solid deeppink;
-    border-radius: 7px;
+    border-radius: 50px;
     padding: 10px;
     font-size: 125%;
     font-variant: small-caps;
@@ -19,16 +29,6 @@ body {
     cursor: pointer;
     right: 0;
     margin: auto;
-}
-
-.blob:hover {
-    color: mistyrose;
-    background-color: deeppink;
-}
-
-.button {
-  position: sticky;
-  top: 0px;
 }
 
 .text-content p {
