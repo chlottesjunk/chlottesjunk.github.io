@@ -25,8 +25,8 @@ body {
 
 .button {
   position: sticky;
-  top: 0;
-  align: right;
+  top: 0px;
+  right: 0px;
 }
 
 .text-content p {
