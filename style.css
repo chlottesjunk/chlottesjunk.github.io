@@ -4,7 +4,7 @@ body {
     position: relative;
 }
 
-.blob {
+.button.blob {
     color: deeppink;
     background-color: mistyrose;
     padding: 10px;
