@@ -7,6 +7,7 @@
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
+    position: relative;
 }
 
 /* button.blob { */
@@ -27,17 +28,36 @@ body {
 /* } */
 
 .button {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    border: 2px dashed rgba(114,186,94,0.35);
-    height: 400px;
-    background: rgba(114, 186, 94, 0.05);
-}
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 80px;
+  height: 80px;
+  background-color: #F8F8F8;
+  
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  &.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
 
-.blob {
-    position: sticky;
-    top:0;
+  &:hover {
+    background-color: #E8E8E8;
+
+  }
 }
 
 /* { */
