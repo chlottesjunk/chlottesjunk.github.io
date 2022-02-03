@@ -1,85 +1,32 @@
-/* *, *:before, *:after: { */
-/*     margin: 0px; */
-/*     padding: 0px; */
-/*     box-sizing: border-box; */
-/* } */
-
 body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
 }
 
-/* button.blob { */
-    /* position: -webkit-sticky; */
-    /* position:  sticky; */
-    /* top: 0; */
-    /* padding: 5px; */
-    /* background-color: mistyrose; */
-    /* border:  2px solid hotpink; */
+.blob {
+    color: deeppink;
+    background-color: mistyrose;
+    border: 2px solid deeppink;
+    border-radius: 7px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     
-/*     left: 50%; */
-/*     transform: translate(-50%, 50%); */
-/*     padding: 20px, 46px; */
-/*     margin-bottom: 30px; */
-/*     text-align: center; */
-/*     text-transform: uppercase; */
-/*     color: deeppink; */
-/* } */
-
-.button {
-  transition: all .25s ease-in-out;
-  position: sticky;
-  top: 0;
-  right: 0;
-  display: inline-flex;
-  
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  margin: 0 3em 3em 0;
-  border-radius: 50%;
-  padding: .25em;
-  width: 80px;
-  height: 80px;
-  background-color: #F8F8F8;
-  
-  &.show {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  &.hide {
-    visibility: hidden;
-    opacity: 0;
-  }
-
-  &:hover {
-    background-color: #E8E8E8;
-
-  }
+    cursor: pointer;
 }
 
-/* { */
-/* position: -webkit-sticky; */
-/*   position: sticky; */
-/*   top: 0; */
-/*   padding: 5px; */
-/*   background-color: #cae8ca; */
-/*   border: 2px solid #4CAF50; */
-/* } */
+.blob:hover {
+    color: mistyrose;
+    background-color: deeppink;
+}
 
-/* .blob { */
-/*     position: sticky; */
-/*     top: 0; */
-/*     left: 50%; */
-/* /\*     transform: translate(-50%, 50%); *\/ */
-/*     padding: 20px, 46px; */
-/*     margin-bottom: 30px; */
-/*     text-align: center; */
-/*     text-transform: uppercase; */
-/*     color: deeppink; */
-/* } */
+.button {
+  position: sticky;
+  top: 0;
+}
 
 .text-content p {
     columns: 150px 3;
