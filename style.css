@@ -5,16 +5,6 @@ body {
 }
 
 .blob {
-}
-
-.button:hover {
-    color: mistyrose;
-    background-color: deeppink;
-}
-
-.button {
-    position: sticky;
-    top: 0px;
     color: deeppink;
     background-color: mistyrose;
     border: 2px solid deeppink;
@@ -29,6 +19,16 @@ body {
     cursor: pointer;
     right: 0;
     margin: auto;
+}
+
+.blob:hover {
+    color: mistyrose;
+    background-color: deeppink;
+}
+
+.button {
+  position: sticky;
+  top: 0px;
 }
 
 .text-content p {
