@@ -2,7 +2,6 @@ body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
-    z-index: auto;
 }
 
 .blob {
@@ -18,7 +17,6 @@ body {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    z-index: 3;
 }
 
 .blob:hover {
@@ -29,13 +27,11 @@ body {
 .button {
     position: sticky;
     top: 30px;
-    z-index: 10;
 }
 
 .text-content p {
     columns: 250px 2;
     column-gap: 15px;
-    position: absolute;
 }
 
 h1 {
