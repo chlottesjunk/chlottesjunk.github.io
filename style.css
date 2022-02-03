@@ -10,11 +10,15 @@ body {
     border: 2px solid deeppink;
     border-radius: 7px;
     padding: 10px;
+    font-size: 150%;
+    font-style: small-caps;
     width: fit-content;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    right: 0;
+    margin: auto;
 }
 
 .blob:hover {
@@ -25,8 +29,6 @@ body {
 .button {
   position: sticky;
   top: 0px;
-  right: 0px;
-  margin: auto;
 }
 
 .text-content p {
