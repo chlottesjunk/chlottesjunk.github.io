@@ -6,8 +6,8 @@ body {
 
 .blob {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 30px;
+    top: 30px;
     display: inline-flex;
 
     width: 50px;
