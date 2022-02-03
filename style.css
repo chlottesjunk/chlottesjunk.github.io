@@ -9,17 +9,43 @@ body {
     background-color: snow;
 }
 
-.blob {
-    position: sticky;
+button.blob {
+    position: -webkit-sticky;
+    position:  sticky;
     top: 0;
-    left: 50%;
+    padding: 5px;
+    background-color: mistyrose;
+    border:  2px solid hotpink;
+    
+/*     left: 50%; */
 /*     transform: translate(-50%, 50%); */
-    padding: 20px, 46px;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    color: deeppink;
+/*     padding: 20px, 46px; */
+/*     margin-bottom: 30px; */
+/*     text-align: center; */
+/*     text-transform: uppercase; */
+/*     color: deeppink; */
 }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+/* .blob { */
+/*     position: sticky; */
+/*     top: 0; */
+/*     left: 50%; */
+/* /\*     transform: translate(-50%, 50%); *\/ */
+/*     padding: 20px, 46px; */
+/*     margin-bottom: 30px; */
+/*     text-align: center; */
+/*     text-transform: uppercase; */
+/*     color: deeppink; */
+/* } */
 
 .text-content p {
     columns: 150px 3;
