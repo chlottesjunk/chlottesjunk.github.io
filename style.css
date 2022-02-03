@@ -7,7 +7,7 @@ body {
 .blob {
 }
 
-.blob:hover {
+.button:hover {
     color: mistyrose;
     background-color: deeppink;
 }
