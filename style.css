@@ -30,7 +30,7 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover:not(.active) {
+nav li a:hover {
     color: deeppink;
 }
 
