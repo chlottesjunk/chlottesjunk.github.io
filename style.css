@@ -2,19 +2,6 @@ body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
-    box-sizing: border-box;
-}
-
-main {
-  display: -webkit-flex;
-  display: flex;
-}
-
-nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: blue;
 }
 
 nav ul {
@@ -113,18 +100,9 @@ p {
 }
 
 .text-content p {
+    padding-left: 15px;
     columns: 250px 2;
     column-gap: 15px;
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-}
-
-@media (max-width: 60px) {
-    main {
-	-webkit-flex-direction: column;
-	flex-direction: column;
-    }
 }
 
 @font-face {
