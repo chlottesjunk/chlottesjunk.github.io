@@ -41,7 +41,7 @@ body {
     height: 100px;
 }
 
-nav li a.active:hover{
+.sidebar li a.active:hover{
     background-color: deeppink;
 }
 
