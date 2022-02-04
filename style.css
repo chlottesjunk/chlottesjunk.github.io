@@ -4,9 +4,9 @@ body {
     position: relative;
 }
 
-/* nav.pages { */
-/*     display: none; */    
-/* } */
+nav.pages {
+    display: none;    
+}
 
 nav ul {
     list-style: none;
