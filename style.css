@@ -2,6 +2,7 @@ body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
+    box-sizing: border-box;
 }
 
 section {
