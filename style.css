@@ -42,7 +42,7 @@ nav li a.active {
 }
 
 nav li a.active:hover{
-    color: deeppink;
+    background-color: deeppink;
 }
 
 h1 {
