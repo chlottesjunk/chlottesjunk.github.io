@@ -36,7 +36,7 @@ nav li a:hover:not(.active) {
 nav li a.active {
     color: mistyrose;
     background-color: deeppink;
-    width: inherit;
+    width: 15%;
     height: 100px;
 }
 
