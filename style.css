@@ -30,7 +30,7 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li a:hover:not(.active) {
     color: deeppink;
 }
 
@@ -39,6 +39,10 @@ nav li a.active {
     background-color: palevioletred;
     width: inherit;
     height: 100px;
+}
+
+nav li a.active:hover{
+    color: deeppink;
 }
 
 h1 {
