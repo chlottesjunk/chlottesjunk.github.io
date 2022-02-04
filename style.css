@@ -18,7 +18,7 @@ nav ul {
     position: fixed;
     overflow: auto;
     
-    color: pink;
+    color: lightpink;
     background-color: mistyrose;
     font-family: heavy-heap, sans-serif;
     font-size: 175%;
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul a {
-    color: pink;
+    color: lightpink;
     text-decoration: none;
 }
 
