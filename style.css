@@ -25,16 +25,16 @@ nav ul {
     text-align: float;
 }
 
-nav li a {
+.sidebar li a {
     color: lightpink;
     text-decoration: none;
 }
 
-nav li a:hover:not(.active) {
+.sidebar li a:hover:not(.active) {
     color: deeppink;
 }
 
-nav li a.active {
+.sidebar li a.active {
     color: mistyrose;
     background-color: palevioletred;
     width: inherit;
