@@ -35,7 +35,7 @@ nav li a:hover:not(.active) {
 
 nav li a.active {
     color: mistyrose;
-    backgroun: deeppink;
+    backgroun-color: deeppink;
 }
 
 h1 {
