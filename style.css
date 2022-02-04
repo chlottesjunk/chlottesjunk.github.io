@@ -102,7 +102,7 @@ p {
 }
 
 .text-content p {
-    padding-left: 15px;
+    padding-left: 15%;
     columns: 250px 2;
     column-gap: 15px;
 }
