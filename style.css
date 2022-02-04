@@ -2,6 +2,7 @@ body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
+    padding-left: 15%;
 }
 
 nav ul {
@@ -102,7 +103,6 @@ p {
 }
 
 .text-content p {
-    padding-left: 15%;
     columns: 250px 2;
     column-gap: 15px;
 }
