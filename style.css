@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+    width: 15%;
     display: block;
 }
 
@@ -12,7 +13,7 @@ nav ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    width: max-content;
+    width: inherit;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -36,7 +37,7 @@ nav li a:hover:not(.active) {
 nav li a.active {
     color: mistyrose;
     background-color: deeppink;
-    width: 15%;
+    width: inherit;
     height: 100px;
 }
 
