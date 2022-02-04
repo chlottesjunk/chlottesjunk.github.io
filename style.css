@@ -11,8 +11,6 @@ section {
 }
 
 nav {
-    top: 0px;
-    left: 0px;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
