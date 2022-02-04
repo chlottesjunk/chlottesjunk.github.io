@@ -4,16 +4,11 @@ body {
     position: relative;
 }
 
-.sidebar {
-    width: 15%;
-    display: block;
-}
-
 .sidebar ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    width: inherit;
+    width: 15%;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -26,6 +21,7 @@ body {
 }
 
 .sidebar li a {
+    display: block;
     color: lightpink;
     text-decoration: none;
 }
