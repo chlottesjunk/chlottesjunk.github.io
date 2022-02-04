@@ -107,6 +107,41 @@ p {
     column-gap: 15px;
 }
 
+#weather {
+    position: relative;
+}
+
+#weather li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#weather li, #weather a {
+    height: 44px;
+    display: block;
+}
+
+#sunny {
+    left: 0px;
+    width: 46px;
+    background: url('img/icons.png') 0 0;
+}
+
+#rainy {
+    left: 63px;
+    width: 43px;
+    background: url('img/icons.png') -47 0;
+}
+
+#cloudy {
+    left: 129px;
+    width: 43px;
+    background: url('img/icons.png') -91 0;
+}
+
 @font-face {
     font-family: 'heavy-heap';
     src: url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff2') format('woff2'),
