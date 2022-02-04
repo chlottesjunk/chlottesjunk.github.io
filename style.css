@@ -33,7 +33,7 @@ nav li a:hover:not(.active) {
     color: deeppink;    
 }
 
-nav li.active {
+nav li a.active {
     color: mistyrose;
     backgroun: deeppink;
 }
