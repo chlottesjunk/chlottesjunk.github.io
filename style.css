@@ -5,8 +5,7 @@ body {
 }
 
 /* nav.pages { */
-/*     display: none; */
-    
+/*     display: none; */    
 /* } */
 
 nav ul {
@@ -25,13 +24,18 @@ nav ul {
     text-align: float;
 }
 
-nav ul a {
+nav li a {
     color: lightpink;
     text-decoration: none;
 }
 
-nav ul a:hover {
-    color: deeppink;
+nav li a:hover:not(.active) {
+    color: deeppink;    
+}
+
+nav li.active {
+    color: mistyrose;
+    backgroun: deeppink;
 }
 
 h1 {
