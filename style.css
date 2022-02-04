@@ -4,42 +4,30 @@ body {
     position: relative;
 }
 
-nav ul {
+/* nav.pages { */
+/*     display: none; */
+    
+/* } */
+
+nav.pages ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
     width: min-content;
-}
-
-.blob {
+    height: 100%;
     position: fixed;
-    right: 30px;
-    top: 30px;
-    display: inline;
-
-    width: 50px;
-    height: 50px;
-    color: deeppink;
+    overflow: auto;
+    
+    color: pink;
     background-color: mistyrose;
-    border: 2px solid deeppink;
-    border-radius: 50px;
-    padding: 10px;
+    font-family: heavy-heap, sans-serif;
+    font-size: 75%;
+    text-align: float;
 
-    font-size: 125%;
-    text-align: center;
-    text-decoration: none;
-
-    cursor: pointer;
-}
-
-.blob:hover {
-    color: mistyrose;
-    background-color: deeppink;
-}
-
-.text-content p {
-    columns: 250px 2;
-    column-gap: 15px;
+    .active {
+	background-color: pink;
+	color: mistyrose;
+    }
 }
 
 h1 {
@@ -72,6 +60,37 @@ p {
     margin: 20px 75px;
     text-indent: 50px;
     overflow-wrap: break-word;
+}
+
+.blob {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    display: inline;
+
+    width: 50px;
+    height: 50px;
+    color: deeppink;
+    background-color: mistyrose;
+    border: 2px solid deeppink;
+    border-radius: 50px;
+    padding: 10px;
+
+    font-size: 125%;
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.blob:hover {
+    color: mistyrose;
+    background-color: deeppink;
+}
+
+.text-content p {
+    columns: 250px 2;
+    column-gap: 15px;
 }
 
 @font-face {
