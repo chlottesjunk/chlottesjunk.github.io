@@ -2,8 +2,6 @@ body {
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif !important;
     background-color: snow;
     position: relative;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .blob {
@@ -67,6 +65,7 @@ p {
     margin: 20px 75px;
     text-indent: 50px;
     text-overflow: "-";
+    overflow-wrap: break-word;
 }
 
 @font-face {
