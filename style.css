@@ -14,7 +14,6 @@ nav {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    width: 15%;
     background: blue;
 }
 
@@ -22,6 +21,7 @@ nav ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    width: 15%;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -118,6 +118,13 @@ p {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
+}
+
+@media (max-width: 600px) {
+    main {
+	-webkit-flex-direction: column;
+	flex-direction: column;
+    }
 }
 
 @font-face {
