@@ -9,7 +9,6 @@ nav {
 }
 
 nav ul {
-    display: block;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -36,7 +35,9 @@ nav li a:hover:not(.active) {
 
 nav li a.active {
     color: mistyrose;
-    backgroun-color: deeppink;
+    background-color: deeppink;
+    width: inherit;
+    height: 100px;
 }
 
 h1 {
