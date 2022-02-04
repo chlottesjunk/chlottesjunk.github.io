@@ -4,12 +4,12 @@ body {
     position: relative;
 }
 
-nav {
+.sidebar {
     width: 15%;
     display: block;
 }
 
-nav ul {
+.sidebar ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
