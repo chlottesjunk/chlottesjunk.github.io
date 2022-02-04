@@ -34,7 +34,6 @@ body {
     color: mistyrose;
     background-color: palevioletred;
     width: inherit;
-    height: 100px;
 }
 
 .sidebar li a.active:hover{
