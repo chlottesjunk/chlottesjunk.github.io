@@ -4,8 +4,8 @@ body {
     position: relative;
 }
 
-nav.pages {
-    display: none;    
+nav {
+    display: block;
 }
 
 nav ul {
