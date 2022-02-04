@@ -64,6 +64,7 @@ p {
     color: palevioletred;
     margin: 20px 75px;
     text-indent: 50px;
+    text-overflow: "-";
 }
 
 @font-face {
