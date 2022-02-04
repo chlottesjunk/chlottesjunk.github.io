@@ -4,11 +4,6 @@ body {
     position: relative;
 }
 
-.sidebar {
-    display: flex;
-
-}
-
 .sidebar ul {
     list-style: none;
     margin: 0px;
@@ -22,7 +17,7 @@ body {
     background-color: mistyrose;
     font-family: heavy-heap, sans-serif;
     font-size: 175%;
-    text-align: float;
+    text-align: center;
 }
 
 .sidebar li a {
