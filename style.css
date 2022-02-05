@@ -44,6 +44,12 @@ nav li a.active:hover{
     background-color: deeppink;
 }
 
+nav img {
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+}
+
 h1 {
     color: deeppink;
     font-family: heavy-heap, sans-serif;
