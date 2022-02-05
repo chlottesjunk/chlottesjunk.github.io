@@ -47,10 +47,12 @@ nav li a.active:hover{
 nav img {
     display: inline;
     position: fixed;
-    bottom: 100%;
+    top: 200px
     left: 0px;
     width: 100px;
     height: auto;
+    overflow: hidden;
+    margin-top: -6px;
 }
 
 h1 {
