@@ -47,7 +47,7 @@ nav li a.active:hover{
 nav img {
     display: inline;
     position: fixed;
-    top: 200px
+    top: 200px;
     left: 0px;
     width: 100px;
     height: auto;
