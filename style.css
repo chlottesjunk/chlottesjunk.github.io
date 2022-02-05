@@ -48,6 +48,9 @@ nav img {
     display: inline;
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    width: 100px;
+    height: auto;
 }
 
 h1 {
