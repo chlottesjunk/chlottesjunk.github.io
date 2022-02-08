@@ -24,6 +24,7 @@ main {
     font-size: 50%;
     padding-bottom: 100px;
     background-color: mistyrose;
+    background-image: url(img/cloud.png);
 }
 
 .left-nav ul {
