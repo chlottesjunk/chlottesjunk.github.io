@@ -26,7 +26,8 @@ main {
     letter-spacing: 1px;
     background-image: url("img/cloud.png");
     background-repeat: no-repeat;
-    background-position: auto;
+    background-position: 50% auto;
+    background-size: cover;
 }
 
 .left-nav ul {
