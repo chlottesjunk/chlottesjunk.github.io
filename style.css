@@ -25,6 +25,7 @@ main {
     font-size: 50%;
     letter-spacing: 1px;
     background-image: url("img/cloud.png");
+    background-size: contain;
 }
 
 .left-nav ul {
