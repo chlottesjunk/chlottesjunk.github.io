@@ -8,6 +8,8 @@ body {
 
 .left-nav {
     position: relative;
+    width: 15%;
+    height: 100%;
 }
 
 .left-nav ul {
