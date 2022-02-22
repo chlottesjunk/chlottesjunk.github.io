@@ -183,11 +183,3 @@ p {
 #cloudy:hover {
     background: url('img/icons.png') -129px 0px;   
 }
-
-@font-face {
-    font-family: 'heavy-heap';
-    src: url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff2') format('woff2'),
-         url('https://chlottesjunk.github.io/css/fonts/heavy_heap-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
