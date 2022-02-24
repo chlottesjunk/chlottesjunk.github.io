@@ -152,6 +152,26 @@ p {
     column-gap: 15px;
 }
 
+
+form {
+    position: fixed;
+    color: lavenderblush;
+    background-color: rgba(218, 112, 214, 0.3);
+    border: 2px solid orchid;
+    border-radius: 25px;
+    padding: 15px;
+    width: fit-content;
+    
+}
+
+select {
+    margin: 250px;
+}
+
+form:hover {
+    background-color: orchid;
+}
+
 #weather {
     position: relative;
 }
