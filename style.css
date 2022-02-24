@@ -152,10 +152,9 @@ p {
     column-gap: 15px;
 }
 
-
 form {
     position: fixed;
-    color: lavenderblush;
+    color: orchid;
     background-color: rgba(218, 112, 214, 0.3);
     border: 2px solid orchid;
     border-radius: 25px;
@@ -164,13 +163,20 @@ form {
     
 }
 
-select {
-    margin: 250px;
-}
-
 form:hover {
+    color: lavenderblush;
     background-color: orchid;
 }
+
+fieldset {
+    margin: 5px;
+    margin-bottom: 20px;
+    border: none;    
+}
+
+select {
+}
+
 
 #weather {
     position: relative;
