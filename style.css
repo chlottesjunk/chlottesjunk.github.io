@@ -113,7 +113,7 @@ p {
 }
 
 .blob {
-    position: fixed;
+    position: sticky;
     right: 30px;
     top: 30px;
     display: inline;
